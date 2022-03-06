@@ -1,5 +1,8 @@
 // Assignment code here
-
+  var lowercase = "abcdefghijklmnopqrstuvwxyz";
+  var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numeric = "1234567890";
+  var special = "!@#$%^&*_-+=";
 
 
 
@@ -11,11 +14,6 @@ generateBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function writePassword() {
-
-  var lowercase = "abcdefghijklmnopqrstuvwxyz";
-  var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var numeric = "1234567890";
-  var special = "!@#$%^&*_-+=";
 
   // A choice needs to be validated
   if (!(lowercase || uppercase || numeric || special)) {
