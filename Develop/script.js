@@ -1,4 +1,9 @@
 // Assignment code here
+var length = window.prompt("Enter a number from 8 to 128 for password length.");
+var lowercase = abcdefghijklmnopqrstuvwxyz;
+var uppercase = ABCDEFGHIJKLMNOPQRSTUVWXYZ;
+var numeric = 1234567890;
+var special = !@#$%^&*-+;
 
 
 // Get references to the #generate element
@@ -11,23 +16,22 @@ function writePassword() {
 
   passwordText.value = password;
 
-  var length = window.prompt("Enter a number from 8 to 128 for password length.");
 
-  var lowercase = false;
     if (confirm("Do you want lowercase characters?") === true) {
       lowercase = true
     }
-  var uppercase = false;
   if (confirm("Do you want uppercase characters?") === true) {
     uppercase = true
   }
-  var numeric = false;
   if (confirm("Do you want numeric characters?") === true) {
     numeric = true
   }
-  var special = false;
   if (confirm("Do you want special characters?") === true) {
     special = true
+  }
+  // A choice needs to be validated
+  if (lowercase, uppercase, numeric, special = "") {
+    window.alert("You need to choose at least one criteria option")
   }
 }
 
