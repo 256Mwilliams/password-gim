@@ -1,7 +1,7 @@
 # Password Generator
 
 ## Purpose
-This program is designed to generate a password randombly based off the criteria the user selects
+This program is designed to generate a password randomly based off the criteria the user selects
 
 ## Built With
 * HTML
